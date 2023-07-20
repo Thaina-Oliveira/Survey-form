@@ -1,0 +1,147 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fef6e4;
+    max-width: 65%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 40px;
+}
+
+header {
+    text-align: center;
+    line-height: 1.5;
+}
+
+#title {
+    color: #001858;
+    font-weight: bolder;
+    font-size: 2.2rem;
+    padding-top: 20px;
+}
+
+#description {
+    color: #172c66;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 20px;
+    
+}
+
+#name,
+#email,
+#number {
+  border-radius: 25px;
+  width: 100%;
+  box-shadow: 5px 5px #8bd3dd;
+  padding-left: 15px;
+  font-size: 20px;
+
+}
+
+.form-control input {
+    padding: 20;
+}
+
+#survey-form {
+    background-color:  #f3d2c1;
+    padding: 20px;
+    box-shadow: 5px 5px #8bd3dd;
+    border-radius: 25px;
+    width: 100%;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #001858;
+    margin: 10px;
+}
+
+#dropdown {
+    border: none;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 5px 5px #8bd3dd;
+    color: #001858;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #001858;
+    margin: 10px;
+}
+span {
+    color: #001858;
+}
+
+.input-radio {
+    height: 20px;
+    width: 20px;
+}
+
+#most-like {
+    border: none;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 5px 5px #8bd3dd;
+    color: #001858;
+}
+
+.input-checkbox {
+    height: 20px;
+    width: 20px;
+}
+
+
+option {
+    color: black;
+}
+
+input {
+    border: none;
+    height: 50px;
+}
+
+::placeholder {
+    color: rgb(169, 170, 170);
+    font-size: 15px;
+}
+
+
+textarea {
+    min-height: 100px; 
+    width: 95%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 5px 5px #8bd3dd;
+    outline: none;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+  }
+  
+  .submit-button {
+    background-color: #f582ae;
+    font-size: 1.2rem;
+    color: #001858;
+    padding: 20px 70px;
+    border-radius: 25px;
+    box-shadow: 5px 5px #8bd3dd;
+    outline: none;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+  }
